@@ -25,8 +25,7 @@ function validateform(){
 function passwordValidation() {
     let password=document.myform.password.value; 
     let confirmpassword=document.myform.confirmpassword.value; 
-    const minNumber = 5;
-    const re  = /^[a-zA-Z0-9!@#$%^&*]{6,16}$/;
+
     const reUppercase = /^(?=.*[A-Z]).*$/;
     const reLowercase = /^(?=.*[a-z]).*$/;
     const reNumber = /^(?=.*[0-9]).*$/;
